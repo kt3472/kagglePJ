@@ -1,5 +1,5 @@
 # Kaggle Projects
 
-1.IEEE-CIS Fraud Detection
+1. IEEE-CIS Fraud Detection
 
-2.NFL Big Data Bowl
+2. NFL Big Data Bowl
