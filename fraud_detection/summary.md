@@ -1,6 +1,6 @@
-# IEE-CIS Fraud Detection
+## IEE-CIS Fraud Detection
 
-1. Reference
+# 1. Reference
   - https://www.kaggle.com/duykhanh99/lgb-fe-0-9492-lb-newfeature-0-9496-lb
   - https://www.kaggle.com/duykhanh99/lightgbm-feature-engineering-eda-with-r
   - https://www.kaggle.com/kyakovlev/ieee-gb-2-make-amount-useful-again
