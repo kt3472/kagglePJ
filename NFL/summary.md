@@ -1,10 +1,7 @@
 ## IEE-CIS Fraud Detection
 
-**1. Reference**
-  - https://www.kaggle.com/duykhanh99/lgb-fe-0-9492-lb-newfeature-0-9496-lb
-    - XXX
-  - https://www.kaggle.com/duykhanh99/lightgbm-feature-engineering-eda-with-r
-    - xxx 
+**1. Competition Link**
+  - https://www.kaggle.com/c/nfl-big-data-bowl-2020
     
 **2. Competition Object**
   - XXX
@@ -29,6 +26,9 @@
 
 **9. Notebook**
 - XXX
+
+**10. Reference**
+  - https://www.kaggle.com/gogo827jz/blending-nn-and-lgbm-rf
 
 
 
