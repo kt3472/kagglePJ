@@ -1,4 +1,4 @@
-## IEE-CIS Fraud Detection
+## NFL Big Data Bowl
 
 **1. Competition Link**
   - https://www.kaggle.com/c/nfl-big-data-bowl-2020
