@@ -18,15 +18,7 @@
   
 
 **4. Reference**
-  - https://www.kaggle.com/duykhanh99/lgb-fe-0-9492-lb-newfeature-0-9496-lb
 
-    
-    
-    
-  - https://www.kaggle.com/duykhanh99/lightgbm-feature-engineering-eda-with-r
-    - xxx
-    
-    
     
   - https://www.kaggle.com/kyakovlev/ieee-gb-2-make-amount-useful-again
     - "M1" ~ "M9"의 합, 결측치의 갯수 컬럼 신규생성, "card"별로 "TransactionAmt"의 mean과 std 컬럼 신규생성 등
@@ -77,16 +69,31 @@
     - Public Score : 0.947726    
     
     
-  - https://www.kaggle.com/rafay12/is-it-really-fraud    
+    
+  - https://www.kaggle.com/rafay12/is-it-really-fraud
+  
+  
+    - 288개 feature + "feature-engineering-lightgbm" kernel의 피처 사용
+    - 1개 LightGBM 알고리즘 사용(주요 파라미터 : min_data_in_leaf = 124, boosting_type = gbdt)
+    - 5-Fold 교차검증   
+    - Public Score : 0.945084 
     
     
   - https://www.kaggle.com/ysjf13/cis-fraud-detection-visualize-feature-engineering
+  
+  
+    - 90%이상의 결측치를 가진 컬럼 제거, "card1" ~ "card3"과 "addr1" 결합 컬럼 신규 생성, "card"별로 "TransactionAmt"의 mean과 std 컬럼 신규생성,  E-mail,Browser Version, Device Type, 거래시간 재구성
+    - object형 컬럼 labeling
+    - 1개 LightGBM 알고리즘 사용(주요 파라미터 : n_estimators = 1800, early_stop = 100)
+    - 8-Fold 교차검증   
+    - Public Score : 0.946415 
     
     
   - https://www.kaggle.com/whitebird/a-method-to-valid-offline-lb-9506
   
+  
     - "card"별로 "TransactionAmt"의 mean과 std 컬럼 신규생성, 결측치가 100개 이상인 "v_"관련 컬럼 제거    
-    - 1개 LightGBM 알고리즘, 1개 XGBoost 알고리즘, 1개 Catboost 알고리즘 사용
+    - LightGBM 알고리즘 1개, XGBoost 알고리즘 1개, Catboost 알고리즘 1개 사용
     - 3-Fold 교차검증
     - 3개 알고리즘 단순 평균 앙상블
     - Public Score : 0.950671
@@ -94,10 +101,19 @@
     
   - https://www.kaggle.com/kyakovlev/ieee-simple-lgbm
   
+  
     - 최종 Features Selection : https://www.kaggle.com/kyakovlev/ieee-fe-with-some-eda   
     - 1개 LightGBM 알고리즘(주요 파라미터 : n_estimators = 100, boosting_type = gbdt, early_stopping_rounds = 100 등)
     - 8-Fold 교차검증    
     - Public Score : 0.948019
+    
+   
+   
+  - https://www.kaggle.com/duykhanh99/lgb-fe-0-9492-lb-newfeature-0-9496-lb
+  
+  
+  - https://www.kaggle.com/duykhanh99/lightgbm-feature-engineering-eda-with-r
+    - 
     
     
 **5. Ensemble**
