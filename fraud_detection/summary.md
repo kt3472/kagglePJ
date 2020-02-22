@@ -14,13 +14,12 @@
   - https://www.kaggle.com/c/ieee-fraud-detection/data
   - "ProductCD", "card1"등 Transaction 데이터(금융거래관련 데이터)와 "DeviceType", "id_12"등 Identity 데이터(고객정보관련 데이터)로 구성
   - numeric 형태 380개, object 형태 14개 컬럼으로 구성됨(590540 X 394)
-  - Target 컬럼은 "isFraud"로 0이면 정상, 1이면 부정. 정상과 부정의 데이터 비율은 정상거래 96.50%, 부정거래 3.50%로 불균형 데이터
+  - Target 컬럼은 "isFraud"로 "0"이면 정상, "1"이면 부정. 정상과 부정의 데이터 비율은 정상거래 96.50%, 부정거래 3.50%로 불균형 데이터
   
 
 **4. Reference**
   - https://www.kaggle.com/duykhanh99/lgb-fe-0-9492-lb-newfeature-0-9496-lb
-    - 394개 feature중 159개 제거
-    - 
+
     
     
     
@@ -36,6 +35,10 @@
     
   - https://www.kaggle.com/nroman/lgb-single-model-lb-0-9419
     - 394개 feature중 159개 제거
+    - "TranactionAmt"을 int형의 신규 컬럼으로 생성 , "card_1"의 count encoding, 요일/시간 신규 컬럼 생성 등
+    - 1개 LightGBM 알고리즘 사용(주요 파라미터 : min_data_in_leaf = 106, boosting_type = gbdt 등)
+    - 5-Fold 교차검증, [TimeSerieSplit](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html)
+    - features 중요도는 "card1"과 그 파생변수, "TransactionAmt"가 상대적으로 높음  - 394개 feature중 159개 제거
     
     
     
