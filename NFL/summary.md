@@ -14,23 +14,21 @@
   - 2017년 부터 2018년까지 총 512회 미식축구경기 플레이어들의 정보인 field에서의 위치(location), 속도(speed), 가속도(velocity) 등과, 날씨정보, 경기장의 상태정보 등 49개 컬럼으로 구성(Numeric형 25개, object형 24개)
 
 
-**4. Data Exploration / preprocessing**
-- X
+**4. Data Exploration / preprocessing / Feature Eng.**
+- rushing player 기준으로 데이터 병합 및 정리
+- 공/수 여부, 방향데이타, 각도 등를 반영한 location관련 신규 데이터 생성
+- 선수들의 나이,신장, 경기시간 날씨 등의 다향한 형식으로 표현된 value를 동일한 형태로 전처리  
 
 
-**5. Feature Eng.**
+**5. Model tuning**
 - XXX
 
 
-**6. Model tuning**
+**6. Ensemble**
 - XXX
 
 
-**7. Ensemble**
-- XXX
-
-
-**8. Results**
+**7. Results**
 - XXX
 
 
@@ -40,4 +38,5 @@
 
 **10. Reference**
   - https://www.kaggle.com/gogo827jz/blending-nn-and-lgbm-rf
+  - https://www.kaggle.com/ben519/understanding-x-y-dir-and-orientation
   - https://blog.naver.com/madden789
