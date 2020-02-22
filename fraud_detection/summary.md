@@ -29,7 +29,11 @@
     
     
   - https://www.kaggle.com/kyakovlev/ieee-gb-2-make-amount-useful-again
-    - xxx
+    - "M1" ~ "M9"의 합, 결측치의 갯수 컬럼 신규생성, "card"별로 "TransactionAmt"의 mean과 std 컬럼 신규생성 등
+    - Object형 컬럼 labeling, scipy패키지의 ks_2samp를 이용하여 불필요한 컬럼 제거, 최종 11개 컬럼 선택
+    - 1개 LightGBM 알고리즘 사용(주요 파라미터 : num_leaves = 2^8, boosting_type = gbdt, early_stopping_rounds = 100 등)
+    - 10-Fold 교차검증    
+    - Public Score : 0.946803 
     
     
     
