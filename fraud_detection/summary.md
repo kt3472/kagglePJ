@@ -103,15 +103,18 @@
   
   
     - 최종 Features Selection : https://www.kaggle.com/kyakovlev/ieee-fe-with-some-eda   
-    - 1개 LightGBM 알고리즘(주요 파라미터 : n_estimators = 100, boosting_type = gbdt, early_stopping_rounds = 100 등)
+    - 1개 LightGBM 알고리즘 사용(주요 파라미터 : n_estimators = 100, boosting_type = gbdt, early_stopping_rounds = 100 등)
     - 8-Fold 교차검증    
     - Public Score : 0.948019
     
    
   - https://www.kaggle.com/duykhanh99/lgb-fe-0-9492-lb-newfeature-0-9496-lb  
   - https://www.kaggle.com/duykhanh99/lightgbm-feature-engineering-eda-with-r
-   
   
+    - 74개 correlated 컬럼 제거, 이메일, 브라우저, 시간 등 관련 컬럼 신규생성 및 재구성, card변수관련 컬럼의 mean, std 변수 신규생성
+    - 1개 LightGBM 알고리즘 사용(주요 파라미터 : boosting_type = dart, early_stopping_rounds = 400, min_data_in_leaf = 100 등)
+    - Public Score : 0.948019
+    
     
 **5. Ensemble**
   - XXX
