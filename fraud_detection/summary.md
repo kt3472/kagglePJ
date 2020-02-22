@@ -74,35 +74,30 @@
     - 90%이상 null값 컬럼 제거, object형 컬럼 labeling
     - 1개 LightGBM 알고리즘 사용(주요 파라미터 : min_data_in_leaf = 2^8, boosting_type = gbdt, early_stopping_rounds = 100 등)
     - 5-Fold 교차검증
-    - Public Score : 0.947726
+    - Public Score : 0.947726    
     
     
-    
-  - https://www.kaggle.com/rafay12/is-it-really-fraud
-  
-  
-    - 394개 feature중 159개 제거
-    - "TranactionAmt"을 int형의 신규 컬럼으로 생성 , "card_1"의 count encoding, 요일/시간 신규 컬럼 생성 등
-    - 1개 LightGBM 알고리즘 사용(주요 파라미터 : min_data_in_leaf = 106, boosting_type = gbdt 등)
-    - 5-Fold 교차검증, [TimeSerieSplit](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html)
-    - features 중요도는 "card1"과 그 파생변수, "TransactionAmt"가 상대적으로 높음
-    - Public Score : 0.941915- xxx
-    
+  - https://www.kaggle.com/rafay12/is-it-really-fraud    
     
     
   - https://www.kaggle.com/ysjf13/cis-fraud-detection-visualize-feature-engineering
-    - xxx
-    
     
     
   - https://www.kaggle.com/whitebird/a-method-to-valid-offline-lb-9506
-    - xxx
-    
+  
+    - "card"별로 "TransactionAmt"의 mean과 std 컬럼 신규생성, 결측치가 100개 이상인 "v_"관련 컬럼 제거    
+    - 1개 LightGBM 알고리즘, 1개 XGBoost 알고리즘, 1개 Catboost 알고리즘 사용
+    - 3-Fold 교차검증
+    - 3개 알고리즘 단순 평균 앙상블
+    - Public Score : 0.950671
     
     
   - https://www.kaggle.com/kyakovlev/ieee-simple-lgbm
-    - xxx
-    
+  
+    - 최종 Features Selection : https://www.kaggle.com/kyakovlev/ieee-fe-with-some-eda   
+    - 1개 LightGBM 알고리즘(주요 파라미터 : n_estimators = 100, boosting_type = gbdt, early_stopping_rounds = 100 등)
+    - 8-Fold 교차검증    
+    - Public Score : 0.948019
     
     
 **5. Ensemble**
