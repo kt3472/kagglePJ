@@ -40,15 +40,4 @@
 
 **10. Reference**
   - https://www.kaggle.com/gogo827jz/blending-nn-and-lgbm-rf
-
-
-
-
-
-
-
-
-
-
-
-
+  - https://blog.naver.com/madden789
