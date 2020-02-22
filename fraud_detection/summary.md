@@ -117,7 +117,9 @@
     
     
 **5. Ensemble**
-  - XXX
+  - 10개 LightGBM + Ensemble(1개 LightGBM + 1개 XGBoost + 1개 Catboost)
+  - 각 알고리즘 별 가중평균 사용
+  
 
 **6. Result**
-  - XXX
+  - AUC : public = 0.952636, pravate = 0.928465
