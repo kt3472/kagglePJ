@@ -38,12 +38,18 @@
     - "TranactionAmt"을 int형의 신규 컬럼으로 생성 , "card_1"의 count encoding, 요일/시간 신규 컬럼 생성 등
     - 1개 LightGBM 알고리즘 사용(주요 파라미터 : min_data_in_leaf = 106, boosting_type = gbdt 등)
     - 5-Fold 교차검증, [TimeSerieSplit](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html)
-    - features 중요도는 "card1"과 그 파생변수, "TransactionAmt"가 상대적으로 높음  - 394개 feature중 159개 제거
+    - features 중요도는 "card1"과 그 파생변수, "TransactionAmt"가 상대적으로 높음
+    - Public Score : 0.941915
     
     
     
   - https://www.kaggle.com/davidcairuz/feature-engineering-lightgbm
-    - xxx
+    - "DeviceInfo", "id23", "id30" ~ "id34" 관련 신규 컬럼 생성, "TransactionAmt"을 로그화(log), 일부변수 mean, std 값 파생변수생성
+    - 394개 feature중 159개 제거
+    - 1개 LightGBM 알고리즘 사용(주요 파라미터 : min_data_in_leaf = 106, boosting_type = gbdt 등)
+    - 5-Fold 교차검증
+    - features 중요도는 "card1"과 그 파생변수, "TransactionAmt"가 상대적으로 높음
+    - Public Score : 0.9449 
     
     
     
