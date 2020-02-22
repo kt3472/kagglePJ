@@ -108,13 +108,10 @@
     - Public Score : 0.948019
     
    
-   
-  - https://www.kaggle.com/duykhanh99/lgb-fe-0-9492-lb-newfeature-0-9496-lb
-  
-  
+  - https://www.kaggle.com/duykhanh99/lgb-fe-0-9492-lb-newfeature-0-9496-lb  
   - https://www.kaggle.com/duykhanh99/lightgbm-feature-engineering-eda-with-r
-    - 
-    
+   
+  
     
 **5. Ensemble**
   - XXX
