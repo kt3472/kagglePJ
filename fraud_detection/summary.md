@@ -58,17 +58,35 @@
     
     
   - https://www.kaggle.com/kyakovlev/ieee-lgbm-with-groupkfold-cv
-    - xxx
+  
+  
+    - 최종 Features Selection : https://www.kaggle.com/kyakovlev/ieee-fe-with-some-eda
+    - 1개 LightGBM 알고리즘 사용(주요 파라미터 : min_data_in_leaf = 106, boosting_type = gbdt 등)
+    - 5-Fold 교차검증    
+    - Public Score : 0.948557
     
     
     
   - https://www.kaggle.com/tolgahancepel/lightgbm-single-model-and-feature-engineering
-    - xxx
+  
+  
+    - "card1" ~ "card3"과 "addr1" 결합 컬럼 신규 생성, E-mail,Browser Version, Device Type 컬럼 재구성
+    - 90%이상 null값 컬럼 제거, object형 컬럼 labeling
+    - 1개 LightGBM 알고리즘 사용(주요 파라미터 : min_data_in_leaf = 2^8, boosting_type = gbdt, early_stopping_rounds = 100 등)
+    - 5-Fold 교차검증
+    - Public Score : 0.947726
     
     
     
   - https://www.kaggle.com/rafay12/is-it-really-fraud
-    - xxx
+  
+  
+    - 394개 feature중 159개 제거
+    - "TranactionAmt"을 int형의 신규 컬럼으로 생성 , "card_1"의 count encoding, 요일/시간 신규 컬럼 생성 등
+    - 1개 LightGBM 알고리즘 사용(주요 파라미터 : min_data_in_leaf = 106, boosting_type = gbdt 등)
+    - 5-Fold 교차검증, [TimeSerieSplit](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html)
+    - features 중요도는 "card1"과 그 파생변수, "TransactionAmt"가 상대적으로 높음
+    - Public Score : 0.941915- xxx
     
     
     
