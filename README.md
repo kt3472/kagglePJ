@@ -4,4 +4,4 @@
 
 [2. NFL Big Data Bowl(2019.11)](https://github.com/kt3472/kagglePJ/tree/master/NFL)
 
-[3. M5 Forecasting - Accuracy(2020.03)](https://www.kaggle.com/c/m5-forecasting-accuracy)
+[3. M5 Forecasting - Accuracy(2020.03)](https://github.com/kt3472/kagglePJ/tree/master/walmart)
