@@ -1,18 +1,18 @@
-## NFL Big Data Bowl
+## M5 Forecasting - Accuracy
 
 **1. Competition Link**
-  - https://www.kaggle.com/c/nfl-big-data-bowl-2020
+  - https://www.kaggle.com/c/m5-forecasting-accuracy/overview
 
 
 **2. Competition Object**
-  - For each playerID, we must predict a cumulative probability distribution for the yardage gained or lost.
-  - 평가척도 : CRPS(Continuous Ranked Probability Score, 예측값의 누적분포함수와 실제값의 누적분포함수 간의 차이)
+  - Forecasting daily sales for the next 28 days with hierarchical sales data from Walmart 
+  - 평가척도 : RMSSE(Weighted Root Mean Squared Scaled Error)
 
 
 **3. Data & Exploration**
-  - https://www.kaggle.com/c/nfl-big-data-bowl-2020/data
-  - 2017년 부터 2018년까지 총 512회 미식축구경기 플레이어들의 정보인 field에서의 위치(location), 속도(speed), 가속도(velocity) 등과, 날씨정보, 경기장의 상태정보 등 49개 컬럼으로 구성
-  - Numeric형 25개, object형 24개로 구성  
+  - https://www.kaggle.com/c/m5-forecasting-accuracy/data
+  - 
+  - 
 
 
 **4. preprocessing & Feature Eng.**
