@@ -32,10 +32,8 @@
 
 
 **7. Results**
-- CRPS = 0.013287 (public/pravate 리더보드 동일)
+- RMSSE = 0.013287 (public/pravate 리더보드 동일)
 
 
 **8. Reference**
-  - https://www.kaggle.com/gogo827jz/blending-nn-and-lgbm-rf
-  - https://www.kaggle.com/ben519/understanding-x-y-dir-and-orientation
-  - https://blog.naver.com/madden789
+  - https://www.kaggle.com/rodrigolima82/time-series-analysis-es-sarimax-xgb-lgbm
