@@ -38,7 +38,7 @@
 **8. Reference**
   - https://www.kaggle.com/rodrigolima82/time-series-analysis-es-sarimax-xgb-lgbm
   - https://www.kaggle.com/rohitsingh9990/m5-lgbm-fe/notebook
-  
+  - https://www.kaggle.com/li325040229/eda-and-an-encoder-decoder-lstm-with-9-features
   
   
   
