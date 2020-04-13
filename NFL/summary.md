@@ -15,7 +15,7 @@
   - Numeric형 25개, object형 24개로 구성  
 
 
-**4. preprocessing & Feature Eng.**
+**4. Preprocessing & Feature Eng.**
 - rushing player 기준으로 데이터 병합 및 정리
 - 공/수 여부, 방향데이타, 각도 등를 반영한 location관련 신규 데이터 생성
 - 선수들의 나이,신장, 경기시간 날씨 등의 다향한 형식으로 표현된 value를 동일한 형태로 전처리  
